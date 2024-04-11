@@ -15,8 +15,9 @@ def fib_term():
 
     Functionality and Return:
         The function asks the user to input the input their desired fibonacci term
-        returns the desired fiboancci term in integer data type"""
-
+        returns the desired fiboancci term in integer data type
+    """
+    
     # Defining the Fibonacci matrix F
     F = np.matrix([[1, 1], [1, 0]])
 
@@ -28,11 +29,13 @@ def fib_term():
             if (exponent>0):
                 improper_input=False
                 result = F**(exponent)
-                print("The Fibonacci's ",user_input,"th term is: ",result[0,0])
+                print("The Fibonacci's ",user_input,"th term is: ",result[0,0])#this line can be commented out if not necessary
+                return result
             else:
                 print("make sure to input an exponent greater than 0")
         except:
             print("Invalid Input!")
+        
 
 if __name__ == '__main__':
     fib_term()

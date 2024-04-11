@@ -12,3 +12,13 @@ Logic:
 Functionality and Return:
     The function asks the user to input the input their desired fibonacci term
     returns the desired fiboancci term in integer data type
+
+Programming Concepts used:
+    Functions and Returns
+    Input
+    Exception Handling
+
+Libraries used:
+    Numpy:
+        numpy.matrix()
+        numpy.matrix()**
