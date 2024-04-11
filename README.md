@@ -1,5 +1,5 @@
 Fibonacci Recurrence Relationship:  
-    > F(n) = F(n-1) + F(n-2)
+    '>' F(n) = F(n-1) + F(n-2)
     >where n = 1,2,3,... and F(1)=F(2)=1
 
 Logic:
