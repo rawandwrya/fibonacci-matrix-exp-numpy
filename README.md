@@ -19,5 +19,5 @@ To calculate the nth term in the Fibonacci Sequence, we take advantage of the ma
 
 # Libraries used:
 Numpy:  
-	numpy.matrix()  
-	numpy.matrix()**
+> numpy.matrix()  
+> numpy.matrix()**
